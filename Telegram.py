@@ -9,9 +9,9 @@ config = load_config('Config.JSON')
 
 class TelegramBot:
 	def __init__(self):
-		self.TOKEN = "7491837654:AAGP3x-lFwL0ITKOy9tAxxo11yzyOAt56UI"
+		self.TOKEN = "" #Enter telegram bot token
 		self.chat_id = config["chat_id"]
-		#self.chat_id = "515530211"
+		#self.chat_id = "" #Enter chat id
 		self.message = "INITIALISED"
 		self.url = f"https://api.telegram.org/bot{self.TOKEN}/sendMessage?chat_id={self.chat_id}&text={self.message}"
 		
