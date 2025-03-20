@@ -1,0 +1,39 @@
+{
+  "screen_size": "800x480",
+  "camera_index":  0,
+  "port": "/dev/ttyACM1",
+  "baud": 115200,
+  "chat_id": "-1002187018970",
+
+  "images": {
+    "back_button": "back_button",
+    "face_button": "face_button",
+    "settings_button": "settings_button",
+    
+    "hr_image": "hr_image",
+    "br_image": "br_image",
+
+    "face1": "a",
+    "face2": "a",
+    "face3": "a",
+    "face4": "a"
+  },
+  
+  "sounds": {
+    "bg_sound": "Stal.mp3",
+    "ayo_sound": "ayo.mp3",
+    "feed_sound": "plastic_bag.mp3"
+  },
+
+  "settings": {
+    "face_style": "1",
+    "operation_mode": "Interval",
+    "monitoring_interval": 0.5
+  },
+
+  "states": {
+    "ball_state": false,
+    "camera_state": false,
+    "monitoring_state": false
+  }
+}
